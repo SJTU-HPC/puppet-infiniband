@@ -31,7 +31,7 @@ class Facter::Util::Infiniband
   #
   # @api private
   def self.read_sysfs(path)
-    output = Facter::Util::FileRead.read(path)
+    output = File.read(path)
     return nil if output.nil?
     output.strip
   end
