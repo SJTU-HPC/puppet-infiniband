@@ -60,8 +60,8 @@ class infiniband (
   Anchor['infiniband::start']->
   Class['infiniband::install']->
   Class['infiniband::config']->
-  Class['infiniband::service']->
   Class['infiniband::providers']->
+  Class['infiniband::service']->
   Anchor['infiniband::end']
 
 }
