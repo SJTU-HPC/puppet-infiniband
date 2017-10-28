@@ -22,7 +22,6 @@ describe 'infiniband class' do
       'ibacm',
       'ibsim',
       'ibutils',
-      'libcxgb3',
       'libibmad',
       'libibumad',
       'libipathverbs',

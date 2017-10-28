@@ -8,8 +8,6 @@ class infiniband::params {
           'dapl',
           'ibacm',
           'ibutils',
-          'libcxgb3',
-          'libcxgb4',
           'libibcm',
           'libibmad',
           'libibumad',
