@@ -4,7 +4,10 @@ def shellvars
   {
     'IPOIB_LOAD'      => { 'value' => 'yes' },
     'SRP_LOAD'        => { 'value' => 'no' },
+    'SRPT_LOAD'       => { 'value' => 'no' },
     'ISER_LOAD'       => { 'value' => 'no' },
+    'ISERT_LOAD'      => { 'value' => 'no' },
+    'XPRTRDMA_LOAD'    => { 'value' => 'no' },
     'RDS_LOAD'        => { 'value' => 'no' },
     'FIXUP_MTRR_REGS' => { 'value' => 'no' },
     'NFSoRDMA_LOAD'   => { 'value' => 'yes' },

@@ -107,9 +107,21 @@ Sets the `IPOIB_LOAD` setting for the RDMA service (defaults to 'yes').
 
 Sets the `SRP_LOAD` setting for the RDMA service (defaults to 'no').
 
+#####`srpt_load`
+
+Sets the `SRPT_LOAD` setting for the RDMA service (defaults to 'no').
+
 #####`iser_load`
 
 Sets the `ISER_LOAD` setting for the RDMA service (defaults to 'no').
+
+#####`isert_load`
+
+Sets the `ISERT_LOAD` setting for the RDMA service (defaults to 'no').
+
+#####`xprtrdma_load`
+
+Sets the `XPRTRDMA_LOAD` setting for the RDMA service (defaults to 'no').
 
 #####`rds_load`
 
