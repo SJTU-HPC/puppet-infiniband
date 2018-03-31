@@ -17,6 +17,7 @@ class infiniband (
   $rdma_conf_path               = $infiniband::params::rdma_conf_path,
   $ipoib_load                   = 'yes',
   $srp_load                     = 'no',
+  $srpt_load                    = 'no',
   $iser_load                    = 'no',
   $rds_load                     = 'no',
   $fixup_mtrr_regs              = 'no',

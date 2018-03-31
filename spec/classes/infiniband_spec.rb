@@ -364,6 +364,7 @@ describe 'infiniband' do
   [
     'ipoib_load',
     'srp_load',
+    'srpt_load',
     'iser_load',
     'rds_load',
     'fixup_mtrr_regs',
