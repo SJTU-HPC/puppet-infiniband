@@ -26,6 +26,8 @@ class infiniband (
   $manage_mlx4_core_options     = true,
   $log_num_mtt                  = 'UNSET',
   $log_mtts_per_seg             = '3',
+  $probe_vf                     = '0',
+  $num_vfs                      = '0',
   $interfaces                   = {},
 ) inherits infiniband::params {
 

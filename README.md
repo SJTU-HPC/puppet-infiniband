@@ -153,6 +153,15 @@ When the value is 'UNSET' the value is determined using the `calc_log_num_mtt` p
 
 Sets the mlx4_core module's 'log_mtts_per_seq' value.  Defaults to '3'.
 
+#####`probe_vf`
+
+Sets the mlx4_core module's 'probe_vf' value.  Defaults to '0'.
+
+
+#####`num_vfs`
+
+Sets the mlx4_core module's 'num_vfs' value.  Defaults to '0'.
+
 #####`interfaces`
 
 This Hash can be used to define `infiniband::interface` resources (defaults to an empty Hash).
